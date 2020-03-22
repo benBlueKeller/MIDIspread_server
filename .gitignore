@@ -1,0 +1,6 @@
+credentials.json
+*.pyc
+MIDIspread_server/bin/**
+MIDIspread_server/lib/**
+MIDIspread_server/MIDIspread/**
+MIDIspread_server/pyvenv.cfg
