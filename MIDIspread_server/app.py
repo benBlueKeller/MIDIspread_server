@@ -7,7 +7,7 @@ app = Flask(__name__.split(".")[0])
 path_mid = os.path.dirname(os.path.abspath(__file__)) + "/midi.mid"
 
 
-@app.route("/", methods=["POST", "PUT"])
+@app.route("/")
 def return_midi():
     try:
         if request.method == "POST" or "PUT":
